@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuizApp2</string>
+        <string name="question1_Name_Of_The_Team">Question #1: What is The name of the team?</string>
+        <string name="answer1_Maccabi_Tel_AVIV">Maccabi Tel AVIV</string>
+        <string name="answer2_Maccabi_Haifa">Maccabi Haifa</string>
+        <string name="answer3_Hapoel_Tel_Aviv">Hapoel Tel Aviv</string>
+        <string name="question2">Question #2: What is the name of the number 9 player in the team?</string>
+        <string name="question3">Question #3: What are the team colors?</string>
+        <string name="answer1_Yellow">Yellow</string>
+        <string name="answer2_Blue">Blue</string>
+        <string name="answer3_White">White</string>
+        <string name="question4">Question #4: Who are the group organizations?</string>
+        <string name="answer1_Gate">The Gate</string>
+        <string name="answer2_Gate11">Gate 11</string>
+        <string name="Maccabifans">Maccabi Fans</string>
+        <string name="get_score">Press the button to get your score</string>
+        <string name="button_score">Check your score</string>
+        <string name="text_appear">Text will appear here</string>
+        <string name="score">Score: 0 out of 4</string>
+
+</resources>

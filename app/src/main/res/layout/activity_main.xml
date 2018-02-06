@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/question1_Name_Of_The_Team"
+            android:textAlignment="center"
+            android:textSize="@dimen/score_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:layout_gravity="center"
+            android:src="@drawable/m1" />
+
+        <RadioGroup
+            android:id="@+id/rgGroup1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio1_Q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:checked="false"
+                android:duplicateParentState="false"
+                android:text="@string/answer1_Maccabi_Tel_AVIV"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_size" />
+
+            <RadioButton
+                android:id="@+id/radio2_Q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer2_Maccabi_Haifa"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_size"  />
+
+            <RadioButton
+                android:id="@+id/radio3_Q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer3_Hapoel_Tel_Aviv"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_size"  />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/question2"
+            android:textAlignment="center"
+            android:textSize="@dimen/score_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="264dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:src="@drawable/m2" />
+        <EditText
+            android:id="@+id/text_q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:maxLines="1" />
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/question3"
+            android:textAlignment="center"
+            android:textSize="@dimen/score_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:src="@drawable/m3" />
+
+        <CheckBox
+            android:id="@+id/chkBox1_Q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answer1_Yellow"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_size"  />
+
+        <CheckBox
+            android:id="@+id/chkBox2_Q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/answer2_Blue"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_size"  />
+
+        <CheckBox
+            android:id="@+id/chkBox3_Q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answer3_White"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_size"  />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/question4"
+            android:textAlignment="center"
+            android:textSize="@dimen/score_text" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:src="@drawable/m4" />
+        <CheckBox
+            android:id="@+id/chkBox1_Q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answer1_Gate"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_size"  />
+        <CheckBox
+            android:id="@+id/chkBox2_Q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/answer2_Gate11"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_size"  />
+
+        <CheckBox
+            android:id="@+id/chkBox3_Q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maccabifans"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/txtRadio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_score"
+
+            android:textAlignment="center"
+            android:textSize="@dimen/score_text"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="submitButton"
+            android:visibility="visible"
+            android:background="@color/backgroundButton"
+            android:text="@string/button_score"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>
